@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slot-machine">
+        <div class="slots">
+            <img id="slot1" src="bau.png" alt="Slot 1">
+            <img id="slot2" src="bau.png" alt="Slot 2">
+            <img id="slot3" src="bau.png" alt="Slot 3">
+        </div>
+        <button id="quay" class="action-btn">Quay</button>
+        <div class="betting-area">
+            <div class="bet" id="hinh1">
+                <img src="bau.png" alt="Hinh 1">
+                <div class="bet-counter" id="counter-hinh1">0</div>
+            </div>
+            <div class="bet" id="hinh2">
+                <img src="cua.png" alt="Hinh 2">
+                <div class="bet-counter" id="counter-hinh2">0</div>
+            </div>
+            <div class="bet" id="hinh3">
+                <img src="tom.png" alt="Hinh 3">
+                <div class="bet-counter" id="counter-hinh3">0</div>
+            </div>
+            <div class="bet" id="hinh4">
+                <img src="ca.png" alt="Hinh 4">
+                <div class="bet-counter" id="counter-hinh4">0</div>
+            </div>
+            <div class="bet" id="hinh5">
+                <img src="huou.png" alt="Hinh 5">
+                <div class="bet-counter" id="counter-hinh5">0</div>
+            </div>
+            <div class="bet" id="hinh6">
+                <img src="ga.png" alt="Hinh 6">
+                <div class="bet-counter" id="counter-hinh6">0</div>
+            </div>
+        </div>
+        <button id="datlai" class="action-btn">Đặt lại</button>
+    </div>
+    <div class="instructions">
+        <p>Lưu ý:</p>
+        <ul>
+            <li>Số lần đặt ở một 'Hình' sẽ là số lần xuất hiện của các 'Hình' trên 'Kết quả'</li>
+            <li>Tổng số điểm đặt trong một lần, tối đa là 3</li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
